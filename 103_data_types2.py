@@ -22,3 +22,11 @@ print (20 // 3)
 ## <=, =>, less/greater than or equal to
 ## !=, not equal to
 # is AND is not
+
+# Booleans are true or false, 1 or 0, and are their own data type
+# None is the abscence of value, is 'NoneType' class
+# Operators, Logical And, Logical Or
+a_var = True
+b_var = False
+print (b_var & False) # requires both sides of & True for this to be true
+print (a_var or False) # only one side of 'or' to be true for this to be true
