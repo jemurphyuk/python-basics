@@ -5,6 +5,8 @@
 first_name = 'James'
 last_name = 'Murphy'
 print (first_name + ' ' + last_name)
+# polymorphism
+print (first_name, last_name) # to achieve the above function
 full_name = (first_name + ' ' + last_name)
 print(full_name)
 
@@ -19,6 +21,6 @@ print (my_string.strip()) # remove white space before or after
 # len function not method
 print(len(my_string))
 print (my_string.upper()) # all letters caps
-print (my_string.strip().split(","))
+print (my_string.strip().split(" ")) # split will output list
 
 
