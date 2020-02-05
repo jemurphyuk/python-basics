@@ -1,0 +1,6 @@
+name = input ("Hello, what is your first name? :    ")
+eye_colour = input (f"{name.capitalize()} huh, what a lovely name! What colour are your eyes? :    ")
+hair_colour = input ("Beautiful! What about the colour of your hair? :    ")
+age = int (input (f"Gorgeous! And finally {name.capitalize()}, how old are you? :    "))
+print (f"Hello {name.capitalize()}, you have {eye_colour.lower()} eyes and {hair_colour.lower()} hair, and you are {age} years old. Have a nice day! :)")
+print (f"Also {name.capitalize()}, I predict you were born in {2020 - age} or {2020 - 1 - age}, as you said you were {age} years old!")
