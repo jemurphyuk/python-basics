@@ -11,4 +11,6 @@ We will add:
 
 ## Completed exercises in exercises folder
 - name and information interrogator
-- can you guess a random number  ?
+- can you guess a random number ?
+- age and driving inputs with outcome
+- film rating viewership
