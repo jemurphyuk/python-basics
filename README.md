@@ -6,7 +6,11 @@ This is our python basics repo.
 git
 We will add:
 - variables
-- basic functions, print, type, input 
+- basic functions, print, type, input
+- operators and boolean
+- list and dictionaries
+- control flow
+- for loops 
 
 
 ## Completed exercises in exercises folder
