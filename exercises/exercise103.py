@@ -1,5 +1,7 @@
-age = 18
-driver_license = False
+str_age = input('What is your age?    ').strip()
+age = int(str_age)
+d_license = input("You possess a drivers license. True or False?    ").strip().capitalize()
+driver_license = eval(d_license)
 
 if age >= 18 and driver_license == True:
     print('You can vote and drive')
