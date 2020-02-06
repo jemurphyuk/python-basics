@@ -11,20 +11,20 @@
 # else:
     # block3 of code
 
-# weather = 'rainy'
-# if weather == 'rainy':
-#     print('Take umbrella')
-# elif weather == 'stormy':
-#     print('Take a coat')
-# else:
-#     print('Take sunglasses')
-#
-# print("I'm always running!!")
+weather = 'rainy'
+if weather == 'rainy':
+    print('Take umbrella')
+elif weather == 'stormy':
+    print('Take a coat')
+else:
+    print('Take sunglasses')
+
+print("I'm always running!!")
 
 # Can use IN and AND to find multiples conditions in a variable, more flexibility
 # weather = 'stormy and rainy'
-# if ('rainy' in weather) and ('stormy' in weather):
-#     print('stay at home')
+if ('rainy' in weather) and ('stormy' in weather):
+    print('stay at home')
 
 # Must prioritse the more specific conditions at the top
 
