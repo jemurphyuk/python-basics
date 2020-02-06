@@ -20,3 +20,7 @@ def full_name(first, last):
 
 # can call multiple functions within another function
 # use casting/formatting in functions to avoid repeating in future code
+# when calling functions on a different file, they must be imported first
+# from ___ import * ---> to import all, can replace * with individual functions
+# if we call a function on the importor page...
+# will cause that to run on the importee file

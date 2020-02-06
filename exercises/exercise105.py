@@ -1,7 +1,7 @@
 # create a functioning calculator
 
 # +, -, /, *
-import math
+from math import pi
 
 def addition(n1, n2):
     return n1 + n2
@@ -16,7 +16,7 @@ def divide(n1, n2):
     return n1 / n2
 
 def a_of_circle(radius):
-    return math.pi * radius ** 2
+    return pi * radius ** 2
 
 def a_of_traingle(base, height):
     return height * base * 0.5
